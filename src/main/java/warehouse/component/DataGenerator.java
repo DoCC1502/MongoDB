@@ -15,7 +15,7 @@ public class DataGenerator implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        // ZWINGEND LÖSCHEN: Löscht die alten Demodaten direkt beim Booten aus Java heraus
+
         repository.deleteAll();
         System.out.println(">> Alte Demodaten erfolgreich gelöscht. Generiere Vertiefungsdaten...");
 

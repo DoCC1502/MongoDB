@@ -9,7 +9,7 @@ import warehouse.repository.WarehouseRepository;
 import java.util.List;
 
 @RestController
-@RequestMapping("") // Direkt auf Root mappen, wie in der Aufgabenstellung gefordert
+@RequestMapping("")
 public class WarehouseController {
 
     @Autowired
