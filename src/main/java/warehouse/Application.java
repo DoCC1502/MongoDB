@@ -9,7 +9,7 @@ import warehouse.model.ProductData;
 import warehouse.repository.WarehouseRepository;
 
 @SpringBootApplication
-public class Application implements CommandLineRunner {
+public class 	Application implements CommandLineRunner {
 
 	@Autowired
 	private WarehouseRepository repository;
